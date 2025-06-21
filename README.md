@@ -39,7 +39,7 @@ This project implements a custom **Pix2Vox-like 3D reconstruction pipeline** usi
 ## 📂 Project Structure
 
 ```
-Pix2Vox/
+2D-TO-3D-multi-view/
 ├── core/
 │   ├── train.py              # training script (edit dataset paths here)
 │   └── checkpoints/          # gets created automatically
@@ -61,8 +61,8 @@ Pix2Vox/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Slayer9966/Pix2Vox.git
-cd Pix2Vox
+git clone https://github.com/Slayer9966/2D-TO-3D-multi-view.git
+cd 2D-TO-3D-multi-view
 ```
 
 ### 2. Install Dependencies
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 Place your ShapeNet-style dataset as follows:
 
 ```
-Pix2Vox/
+2D-TO-3D-multi-view/
 └── DataSet/
     ├── ShapeNetVox32_32/
     └── ShapeNetRendering/
